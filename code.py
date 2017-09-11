@@ -1,12 +1,12 @@
 # 1
 # Replace if-else with try-except in the the example below:
 
-def fourth_element_of_list(L):
+def element_of_list(L,i):
     """
     Return the 4th element of ``L`` if it exists, ``None`` otherwise.
     """
     try:
-        return L[3]
+        return L[i]
     except IndexError:
         return None
 
